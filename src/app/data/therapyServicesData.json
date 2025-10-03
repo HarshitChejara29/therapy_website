@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Individual Therapy",
+    "description": "One-on-one sessions designed to help you manage stress, anxiety, or emotional struggles and build resilience for a healthier life.",
+    "image": "/service/individual.png"
+  },
+  {
+    "title": "Couples Therapy",
+    "description": "Guided sessions to improve connection, resolve conflicts, and foster a deeper, more supportive partnership.",
+    "image": "/service/couples.png"
+  },
+  {
+    "title": "Family Therapy",
+    "description": "Therapy that addresses family dynamics, enhances communication, and resolves conflicts to create a healthier home environment.",
+    "image": "/service/family.png"
+  },
+  {
+    "title": "Group Therapy",
+    "description": "Facilitated group sessions where you can share experiences, gain insights, and develop coping skills with others facing similar challenges.",
+    "image": "/service/group.png"
+  },
+  {
+    "title": "Child Therapy",
+    "description": "Tailored therapy to help children cope with emotional, social, or behavioral difficulties in a safe and nurturing environment.",
+    "image": "/service/child.jpg"
+  }
+]

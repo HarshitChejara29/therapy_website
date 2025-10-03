@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Rakesh Patel",
+    "date": "20/11/24",
+    "text": "Hansika has been an incredible support through a difficult time in my life. Her guidance and understanding helped me manage my anxiety and regain confidence. I truly feel stronger and more balanced now.",
+    "image": "/home/testimonials/user1.png",
+    "rating": 4
+  },
+  {
+    "name": "Meet Patel",
+    "date": "25/01/25",
+    "text": "My partner and I attended couples therapy with Hansika, and it completely transformed our relationship. She helped us communicate better and reconnect in ways we never thought possible.",
+    "image": "/home/testimonials/user2.png",
+    "rating": 5
+  },
+  {
+    "name": "Priya Sharma",
+    "date": "10/02/25",
+    "text": "Working with Hansika has been life-changing. She creates a safe and compassionate space where I feel heard and supported. I’ve learned to cope with stress and approach life with a clearer mindset.",
+    "image": "/home/testimonials/user3.png",
+    "rating": 5
+  }
+]

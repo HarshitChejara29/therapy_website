@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "About",
+  "heading": [
+    "Experienced Therapist",
+    "Helping You Overcome",
+    "Life's Challenges"
+  ],
+  "description": "I have extensive experience supporting individuals and couples through life’s challenges. Over the years, I’ve helped many clients improve their emotional well-being, strengthen relationships, and find balance in their lives. My focus is on providing compassionate, effective therapy that creates meaningful and lasting change.",
+  "buttonText": "Know More",
+  "buttonLink": "/about",
+  "image": "/home/therapist.png",
+  "imageAlt": "Therapist",
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Of Experience"
+    },
+    {
+      "value": "490+",
+      "label": "Happy Patients"
+    },
+    {
+      "value": "56+",
+      "label": "Marriages Saved"
+    }
+  ]
+}

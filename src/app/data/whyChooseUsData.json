@@ -1,0 +1,24 @@
+{
+  "image": {
+    "src": "/about/session.png",
+    "alt": "Why Choose Us",
+    "width": 500,
+    "height": 450
+  },
+  "heading": "Our Unique Value Proposition",
+  "subheading": "Why Choose Us?",
+  "points": [
+    {
+      "title": "Personalized Therapy for Your Needs",
+      "description": "Every individual and relationship is unique. We tailor our approach to meet your specific challenges, ensuring therapy is effective and meaningful for you."
+    },
+    {
+      "title": "Compassionate and Safe Environment",
+      "description": "We provide a supportive, non-judgmental space where you feel heard and understood. Your comfort and trust are our top priorities throughout the therapy journey."
+    },
+    {
+      "title": "Proven, Evidence-Based Methods",
+      "description": "Our approach combines trusted therapeutic techniques like CBT, mindfulness, and person-centered strategies. This ensures you receive professional guidance that truly works."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Personalized Guidance",
+    "description": "We provide support tailored to your unique needs and challenges. By understanding your goals and concerns, we create a therapy approach that truly fits you. Our aim is to help you gain clarity, confidence, and practical strategies to navigate life’s difficulties.",
+    "icon": "HelpCircle"
+  },
+  {
+    "id": 2,
+    "title": "Ongoing Care",
+    "description": "Support doesn’t end with a single session. We walk with you throughout your journey, offering consistent guidance, tools, and encouragement. This helps you build resilience, maintain emotional balance, and achieve lasting well-being.",
+    "icon": "Settings"
+  }
+]

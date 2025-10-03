@@ -1,0 +1,46 @@
+{
+  "privacyPolicy": [
+    {
+      "title": "Personal Information Collection",
+      "description": "We collect personal details such as your name, email, phone number, and consultation history. This information is gathered solely for the purpose of providing therapy services, managing appointments, improving your experience, and ensuring that our services are tailored to your needs."
+    },
+    {
+      "title": "Confidentiality",
+      "description": "Your privacy is our top priority. All information shared during therapy sessions, including personal details and communications, is strictly confidential. We follow professional and legal standards to protect your data, ensuring a safe and trustworthy environment for your healing journey."
+    },
+    {
+      "title": "Use of Information",
+      "description": "The information you provide is used only to schedule sessions, process payments, communicate relevant updates, and deliver therapy services effectively. We never use your personal data for marketing or unrelated purposes without your explicit consent."
+    },
+    {
+      "title": "Data Security",
+      "description": "We implement robust security measures to protect your personal and financial information from unauthorized access, loss, or misuse. All online transactions and stored data are safeguarded using industry-standard encryption and secure protocols."
+    },
+    {
+      "title": "Third-Party Sharing",
+      "description": "We do not share your personal information with any third parties except when required by law, or to provide essential services directly related to your therapy (e.g., payment processors). Your information is never sold or used for marketing purposes without your consent."
+    }
+  ],
+  "termsConditions": [
+    {
+      "title": "Appointment Booking",
+      "description": "Clients must complete the consultation form and submit the session fee to confirm a booking. All appointments are confirmed only after payment verification and receipt of the required information. We reserve the right to suggest alternate dates if the requested slot is unavailable."
+    },
+    {
+      "title": "Payment Policy",
+      "description": "Session fees are to be paid in advance to secure your booking. Accepted payment methods will be communicated, and clients must provide proof of payment as instructed. Payments are non-transferable but refundable under the conditions outlined in our cancellation policy."
+    },
+    {
+      "title": "Cancellation and Rescheduling",
+      "description": "Clients may reschedule a session if the selected time is not suitable. If no mutually convenient time can be arranged, and the client wishes to cancel and wants back their money, a full refund will be issued. This ensures flexibility while maintaining a professional and reliable booking process."
+    },
+    {
+      "title": "Online Session Guidelines",
+      "description": "For online therapy sessions, clients must ensure they are in a private, quiet, and secure environment. Using a public or noisy space may affect the session’s effectiveness. Clients should also ensure a stable internet connection and functional devices to facilitate smooth communication."
+    },
+    {
+      "title": "Limitation of Liability",
+      "description": "Therapy is intended to support mental and emotional well-being, but results may vary based on individual circumstances. While we provide professional guidance and evidence-based support, the therapist is not liable for outcomes beyond the scope of professional care."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Get In Touch",
+  "introSection": {
+    "title": "Book Your Therapy Session Today",
+    "paragraphs": [
+      "Our therapy session will be a one-hour online session. Please complete our Consultation Form and submit the session fee of ₹1000. Once the payment is made, kindly send a screenshot of the payment to +91 1234567890. Then your booking will be confirmed.",
+      "If the selected time slot is unavailable due to full bookings, we will propose an alternative date and time for your session. Should this suggested schedule not be convenient, you are welcome to propose another suitable day and time.",
+      "If a suitable time cannot be arranged and you wish to cancel, and you want back your money, your payment will be fully refunded, ensuring a smooth and flexible booking process."
+    ],
+    "image": "/contact/contact.png",
+    "imageAlt": "Contact"
+  },
+  "contactInfo": [
+    {
+      "title": "Appointment Hours",
+      "description": "You can book your slot on three working days of the week during the following hours",
+      "details": [
+        "Thursday and Friday: 6 PM - 9 PM",
+        "Saturday: 12 PM - 5 PM"
+      ],
+      "icon": "Clock"
+    },
+    {
+      "title": "Connect with Us",
+      "description": "Contact us by phone to discuss your needs, or receive further assistance with our services.",
+      "details": [
+        "+91 4567323456"
+      ],
+      "link": "tel:+914567323456",
+      "icon": "Phone"
+    },
+    {
+      "title": "Support Contacts",
+      "description": "Please email us with your inquiries, and we will respond promptly.",
+      "details": [
+        "hansikatherapist11@gmail.com"
+      ],
+      "link": "mailto:hansikatherapist11@gmail.com",
+      "icon": "Mail"
+    }
+  ]
+}

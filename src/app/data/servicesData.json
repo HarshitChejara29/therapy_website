@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Individual Therapy",
+    "description": "Personalized support to navigate life’s challenges.",
+    "icon": "User"
+  },
+  {
+    "id": 2,
+    "title": "Couples Therapy",
+    "description": "Strengthening relationships through understanding and communication.",
+    "icon": "HeartHandshake"
+  },
+  {
+    "id": 3,
+    "title": "Family Therapy",
+    "description": "Helping families grow stronger together.",
+    "icon": "Users"
+  },
+  {
+    "id": 4,
+    "title": "Group Therapy",
+    "description": "Healing and learning in a supportive community.",
+    "icon": "Group"
+  },
+  {
+    "id": 5,
+    "title": "Child Therapy",
+    "description": "Supporting children’s emotional and behavioral well-being.",
+    "icon": "Baby"
+  }
+]

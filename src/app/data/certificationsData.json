@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "/about/certificate1.png",
+    "title": "Therapeutic Art Coach",
+    "date": "25/01/25",
+    "description": "Certified to use creative art techniques as a tool for healing and self-expression."
+  },
+  {
+    "id": 2,
+    "image": "/about/certificate2.jpg",
+    "title": "Certificate of Appreciation",
+    "date": "22/06/24",
+    "description": "Recognized for contributions and dedicated service in the field of mental health."
+  },
+  {
+    "id": 3,
+    "image": "/about/certificate3.png",
+    "title": "Certificate of Honour",
+    "date": "30/03/23",
+    "description": "Awarded for excellence and commitment to providing compassionate therapy."
+  },
+  {
+    "id": 4,
+    "image": "/about/certificate4.png",
+    "title": "Certificate of Completion",
+    "date": "28/08/22",
+    "description": "Completed advanced therapeutic training to effectively support clients’ emotional, mental, growth."
+  },
+  {
+    "id": 5,
+    "image": "/about/certificate5.png",
+    "title": "Certificate of Participation",
+    "date": "29/09/24",
+    "description": "Engaged in professional workshops and seminars to enhance therapeutic skills."
+  },
+  {
+    "id": 6,
+    "image": "/about/certificate6.png",
+    "title": "Certificate of Completion",
+    "date": "28/01/21",
+    "description": "Achieved specialized learning to strengthen client-centered approaches."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "heading": "Learn more about us",
+  "subheading": "Our Story",
+  "intro": "Our journey began with a simple mission: to provide compassionate and effective mental health support to those seeking guidance and healing. Over the years, we’ve grown, learned, and evolved, helping hundreds of individuals, couples, and families navigate life’s challenges. Through dedication, experience, and a client-centered approach, we continue to empower people to find balance, resilience, and meaningful growth in their lives.",
+  "timeline": [
+    {
+      "year": "2006 - 2010",
+      "title": "Foundations of Compassion",
+      "description": "We began our journey focusing on understanding human emotions and building strong therapeutic foundations. These early years were dedicated to training, learning, and helping clients with individual counseling."
+    },
+    {
+      "year": "2011 - 2015",
+      "title": "Expanding Services",
+      "description": "During this period, we expanded our offerings to include couples and family therapy. Our goal was to help relationships thrive alongside individual well-being."
+    },
+    {
+      "year": "2016 - 2020",
+      "title": "Professional Growth & Recognition",
+      "description": "We gained recognition for our evidence-based approach and compassionate care, supporting hundreds of clients while continuously improving our techniques and therapeutic methods."
+    },
+    {
+      "year": "2021 - Present",
+      "title": "Continuing the Journey",
+      "description": "Today, we continue to grow, embracing modern therapy methods and offering a safe, welcoming space for all. Our focus remains on helping clients achieve lasting emotional balance, stronger relationships, and personal growth."
+    }
+  ]
+}

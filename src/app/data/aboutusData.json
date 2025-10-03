@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "heading": "I’m Hansika. Licensed Therapist.",
+    "paragraphs": [
+      "I’m Hansika, a Licensed Therapist dedicated to supporting individuals through life’s difficulties. With compassion, understanding, and evidence-based techniques, I help you navigate stress, anxiety, relationship issues, and personal transitions.",
+      "I provide a safe, supportive space to help you build resilience, self-awareness, and a more balanced, fulfilling life."
+    ],
+    "stats": [
+      "10+ Years Of Experience",
+      "490+ Happy Patients",
+      "56+ Marriages Saved"
+    ],
+    "buttonText": "Book A Consultation",
+    "buttonLink": "/contact",
+    "image": "/about/therapist.png",
+    "imageAlt": "Hansika Therapist"
+  },
+  "visionMission": {
+    "heading": "Our Vision & Mission",
+    "vision": "Our vision is to foster a world where everyone has access to compassionate, professional, and effective mental health support. We strive to help individuals, couples, and families navigate life’s challenges with resilience and confidence, empowering them to lead balanced, fulfilling, and emotionally healthy lives. We envision a community where seeking therapy is embraced as a courageous step toward personal growth, stronger relationships, and overall well-being.",
+    "mission": "Our mission is to provide personalized, evidence-based therapy in a safe, welcoming, and non-judgmental environment. We are dedicated to supporting clients through life’s difficulties—whether managing stress, overcoming anxiety or depression, resolving conflicts, or fostering self-discovery and growth. Through empathy, understanding, and professional guidance, we aim to empower clients to build resilience, improve relationships, and achieve meaningful, lasting change in their lives."
+  }
+}
