@@ -1,9 +1,11 @@
 "use client";
+
 import { HeartHandshake, Users, User, Group, Baby } from "lucide-react";
 import Link from "next/link";
 import servicesData from "../data/servicesData.json";
+import React from "react";
 
-const iconMap: Record<string, JSX.Element> = {
+const iconMap: Record<string, React.ReactElement> = {
   User: <User size={28} />,
   HeartHandshake: <HeartHandshake size={28} />,
   Users: <Users size={28} />,
