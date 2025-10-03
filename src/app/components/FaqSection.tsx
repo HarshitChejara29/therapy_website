@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
-import faqsData from "../data/faqsData.json"; // adjust path if needed
+import faqsData from "../data/faqsData.json";
 
 export default function FaqSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0); // first FAQ open by default
-
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
   const toggleFAQ = (index: number) => {
     setOpenIndex(index === openIndex ? null : index);
   };
