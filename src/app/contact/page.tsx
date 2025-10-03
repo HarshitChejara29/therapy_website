@@ -1,12 +1,13 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, Phone, Mail } from "lucide-react";
 import contactData from "../data/Contact.json";
 import Support from "../components/Support";
 
-const iconMap: { [key: string]: JSX.Element } = {
+const iconMap: { [key: string]: React.ReactElement } = {
   Clock: <Clock className="w-6 h-6" />,
   Phone: <Phone className="w-6 h-6" />,
   Mail: <Mail className="w-6 h-6" />,
