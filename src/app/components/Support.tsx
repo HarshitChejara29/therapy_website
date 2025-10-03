@@ -1,9 +1,10 @@
 "use client";
 
+import React from "react";
 import { HelpCircle, Settings } from "lucide-react";
 import supportData from "../data/Support.json";
 
-const iconMap: { [key: string]: JSX.Element } = {
+const iconMap: { [key: string]: React.ReactElement } = {
   HelpCircle: <HelpCircle className="w-6 h-6 text-black" />,
   Settings: <Settings className="w-6 h-6 text-black" />,
 };

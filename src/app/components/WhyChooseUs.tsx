@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { CheckCircle } from "lucide-react";
-import data from "../data/whyChooseUsData.json"; // adjust path if needed
+import data from "../data/whyChooseUsData.json";
 
 const WhyChooseUs = () => {
   return (

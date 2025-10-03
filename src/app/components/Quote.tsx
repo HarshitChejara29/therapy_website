@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import quoteData from "../data/quoteData.json";
 
 export default function QuoteSection() {
