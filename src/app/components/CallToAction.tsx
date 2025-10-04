@@ -36,7 +36,7 @@ export default function CallToAction() {
 
         {/* Right Image */}
         <div className="w-full flex justify-end">
-          <div className="lg:w-[600px] lg:h-[400px] w-[385px] h-[300px] rounded-2xl overflow-hidden">
+          <div className="lg:w-[600px] lg:h-[400px] w-full h-full rounded-2xl overflow-hidden">
             <Image
               src={callToActionData.image}
               alt={callToActionData.imageAlt}

@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
 
         {/* Left Side (Image, 1/3) */}
         <div className="col-span-1 flex justify-start">
-          <div className="lg:w-[500px] lg:h-[450px] w-[385px] h-[385px] rounded-2xl overflow-hidden">
+          <div className="lg:w-[500px] lg:h-[450px] w-full h-full rounded-2xl overflow-hidden">
             <Image
               src={data.image.src}
               alt={data.image.alt}

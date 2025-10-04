@@ -24,16 +24,18 @@ export default function LegalPolicies() {
       </div>
 
       {/* Terms & Conditions */}
+      <div>
       <div className="lg:mb-28 mb-18">
-        <h2 className="text-3xl md:text-5xl font-semibold mb-6">Terms & Conditions</h2>
+        <h2 className="text-3xl md:text-5xl font-semibold mb-6 text-black">Terms & Conditions</h2>
         <div className="space-y-6">
           {legalData.termsConditions.map((term, idx) => (
             <div key={idx}>
-              <h3 className="font-semibold text-xl mb-2">{term.title}</h3>
+              <h3 className="font-semibold text-xl mb-2 text-black">{term.title}</h3>
               <p className="text-black leading-relaxed">{term.description}</p>
             </div>
           ))}
         </div>
+      </div>
       </div>
       </section>
     </div>

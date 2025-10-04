@@ -55,7 +55,7 @@ export default function About() {
 
           {/* Right Section: Image */}
           <div className="flex justify-end">
-            <div className="lg:w-[500px] lg:h-[500px] w-[385px] h-[385px] rounded-2xl overflow-hidden">
+            <div className="lg:w-[500px] lg:h-[500px] w-full h-full rounded-2xl overflow-hidden">
               <Image
                 src={aboutusData.intro.image}
                 alt={aboutusData.intro.imageAlt}
