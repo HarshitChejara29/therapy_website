@@ -40,7 +40,7 @@ const Strategy = () => {
 
         {/* Right Image */}
         <div className="w-full flex justify-end">
-          <div className="lg:w-[550px] lg:h-[550px] w-[400px] h-[400px] rounded-2xl overflow-hidden">
+          <div className="lg:w-[550px] lg:h-[550px] w-full h-full rounded-2xl overflow-hidden">
             <Image
               src={strategyData.image}
               alt={strategyData.imageAlt}

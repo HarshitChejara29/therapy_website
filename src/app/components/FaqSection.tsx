@@ -22,11 +22,11 @@ export default function FaqSection() {
               onClick={() => toggleFAQ(index)}
               className="flex justify-between items-center w-full py-4 text-left"
             >
-              <span className="font-semibold text-xl mb-4">{faq.question}</span>
+              <span className="font-semibold text-xl mb-4 text-black">{faq.question}</span>
               {openIndex === index ? (
-                <ChevronUpIcon className="w-5 h-5" />
+                <ChevronUpIcon className="w-5 h-5 text-black" />
               ) : (
-                <ChevronDownIcon className="w-5 h-5" />
+                <ChevronDownIcon className="w-5 h-5 text-black" />
               )}
             </button>
             {openIndex === index && faq.answer && (

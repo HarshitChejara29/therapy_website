@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className="bg-[#0B0B14] text-white">
+      <body className="bg-white text-white">
         <Header />
         {children}
         <Footer />

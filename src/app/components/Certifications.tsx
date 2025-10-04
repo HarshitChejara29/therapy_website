@@ -48,7 +48,7 @@ export default function Certifications() {
           </button>
 
           {/* Cards */}
-          <div className={`grid grid-cols-1 md:grid-cols-${cardsToShow} gap-9 px-12`}>
+          <div className={`grid lg:grid-cols-4 md:grid-cols-${cardsToShow} gap-9 px-12`}>
             {Array.from({ length: cardsToShow }).map((_, i) => {
               const cert = certifications[(index + i) % certifications.length];
               return (
