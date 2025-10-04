@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#FFFCF5] border-[#CBBCD4] border-b">
-      <div className="mx-auto flex items-center justify-between px-4 py-8 sm:px-28">
+      <div className="mx-auto flex items-center justify-between px-4 lg:py-7 py-6 sm:px-28">
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8">
