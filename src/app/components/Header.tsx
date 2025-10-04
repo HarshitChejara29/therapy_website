@@ -41,11 +41,11 @@ const Header = () => {
         <div className="md:hidden flex items-center w-full px-2">
           {/* Logo on the left */}
           <Link href="/">
-            <div className="text-xl font-extrabold tracking-widest">L O G O</div>
+            <div className="text-xl font-extrabold tracking-widest text-black">L O G O</div>
           </Link>
 
           {/* Menu button at far right */}
-          <div className="ml-auto">
+          <div className="ml-auto text-black">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>

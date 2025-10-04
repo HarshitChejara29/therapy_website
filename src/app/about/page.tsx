@@ -10,12 +10,12 @@ import Certifications from "../components/Certifications";
 export default function About() {
   return (
     <>
-    <p className="text-sm text-gray-400 py-14 lg:px-28 px-6">
+    <p className="bg-white text-sm text-gray-400 py-14 lg:px-28 px-6">
       <Link href="/">Home</Link> <span className="text-black">› About Us</span>
     </p>
     {/* Intro Section */}
-      <section className="px-6 md:px-28 mb-28 bg-white">
-        <div className="grid md:grid-cols-2 items-start lg:gap-0 gap-6">
+      <section className="px-6 md:px-28 bg-white">
+        <div className="lg:mb-28 mb-18 grid md:grid-cols-2 items-start lg:gap-0 gap-6">
 
           {/* Left Section: Text */}
           <div>

@@ -18,7 +18,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <div className="px-6 md:px-12 lg:px-28">
+      <div className="bg-white px-6 md:px-12 lg:px-28">
         {/* Breadcrumb */}
         <p className="text-sm text-gray-400 py-14">
           <Link href="/">Home</Link> <span className="text-black">› Contact Us</span>
@@ -30,7 +30,7 @@ export default function ContactPage() {
         {/* Intro Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-stretch lg:gap-0 gap-6">
           <div className="md:col-span-2 bg-[#FFFCF5] p-6 rounded-lg lg:ml-18 lg:mr-16 h-full flex flex-col justify-start">
-            <h3 className="font-semibold text-lg mb-4">{introSection.title}</h3>
+            <h3 className="text-black font-semibold text-lg mb-4">{introSection.title}</h3>
             <div className="space-y-2">
               {introSection.paragraphs.map((p, idx) => (
                 <p key={idx} className="text-gray-900">{p}</p>
@@ -57,14 +57,14 @@ export default function ContactPage() {
               <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#CBBCD4] text-black mb-2">
                 {iconMap[info.icon]}
               </div>
-              <h4 className="font-semibold">{info.title}</h4>
+              <h4 className="text-black  font-semibold">{info.title}</h4>
               <div className="w-full border-b border-[#CBBCD4] mb-1"></div>
               <p className="text-sm text-black">{info.description}</p>
               {info.link ? (
-                <Link href={info.link} className="font-medium underline">{info.details[0]}</Link>
+                <Link href={info.link} className="font-medium underline text-black ">{info.details[0]}</Link>
               ) : (
                 info.details.map((detail, i) => (
-                  <span key={i} className="font-medium">{detail}</span>
+                  <span key={i} className="font-medium text-black ">{detail}</span>
                 ))
               )}
             </div>
@@ -73,14 +73,14 @@ export default function ContactPage() {
       </div>
 
       {/* Consultation Form */}
-        <div className="lg:mt-18 mt-8 bg-[#FFFCF5] p-6 md:p-10 rounded-xl">
+        <div className="lg:mt-18 mt-8 bg-[#FFFCF5] p-6 md:p-10">
           <div className="max-w-2xl mx-auto py-6">
           <h3 className="text-3xl md:text-5xl font-semibold text-black mb-2">Book a Consultation</h3>
           <p className="text-sm text-black mb-8">
             Please fill out your information below.
           </p>
 
-          <form className="grid grid-cols-1 gap-8">
+          <form className="text-black grid grid-cols-1 gap-8">
             {/* Name */}
             <div>
               <label className="block text-md font-semibold mb-1">

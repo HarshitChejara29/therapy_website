@@ -29,7 +29,7 @@ export default function Certifications() {
   const cardsToShow = isMobile ? 1 : 4;
 
   return (
-    <section className="py-16 lg:mb-10">
+    <section className="bg-white py-16 lg:mb-10">
       <div className="container px-6 md:px-28 relative">
         <h4 className="text-sm font-medium text-purple-400 mb-2">
           Certifications

@@ -8,7 +8,7 @@ import getInTouchData from "../data/GetInTouch.json";
 export default function TherapyServices() {
   return (
     <>
-      <section className="md:px-12 lg:px-28 px-6">
+      <section className="bg-white md:px-12 lg:px-28 px-6">
         {/* Breadcrumb */}
         <p className="text-sm text-gray-400 py-14">
           <Link href="/">Home</Link> <span className="text-black">› Services</span>

@@ -11,7 +11,7 @@ const iconMap: { [key: string]: React.ReactElement } = {
 
 export default function Support() {
   return (
-    <section className="px-6 md:px-12 lg:px-28 py-18">
+    <section className="bg-white px-6 md:px-12 lg:px-28 py-18">
       {/* Heading */}
       <p className="text-sm font-medium text-purple-400 mb-2">Support</p>
       <h2 className="text-3xl md:text-5xl font-semibold text-black mb-12">

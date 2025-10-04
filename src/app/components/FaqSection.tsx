@@ -11,7 +11,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="lg:px-28 px-6 lg:py-24 py-16">
+    <section className="bg-white lg:px-28 px-6 lg:py-24 py-16">
       <h3 className="text-sm font-medium text-purple-400 uppercase mb-2">FAQ&apos;s</h3>
       <h2 className="text-3xl md:text-5xl font-semibold text-black mb-10">Clear your doubts</h2>
 
