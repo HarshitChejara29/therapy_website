@@ -32,7 +32,7 @@ export default function Support() {
 
             {/* Content */}
             <div>
-              <h3 className="font-semibold text-lg mb-2">{support.title}</h3>
+              <h3 className="text-black font-semibold text-lg mb-2">{support.title}</h3>
               <div className="w-full border-b border-[#CBBCD4] mb-3"></div>
               <p className="text-sm text-black leading-relaxed">
                 {support.description}

@@ -25,7 +25,7 @@ export default function ContactPage() {
         </p>
 
         {/* Page Title */}
-        <h2 className="text-3xl md:text-5xl font-semibold mb-6">{pageTitle}</h2>
+        <h2 className="text-black text-3xl md:text-5xl font-semibold mb-6">{pageTitle}</h2>
 
         {/* Intro Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-stretch lg:gap-0 gap-6">
@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Info */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:mt-28 mt-18">
+        <div className="lg:mb-18 mb-8 grid grid-cols-1 md:grid-cols-3 gap-10 lg:mt-28 mt-18">
           {contactInfo.map((info, idx) => (
             <div key={idx} className="p-6 border border-[#CBBCD4] border-b-5 border-r-5 rounded-2xl bg-white flex flex-col gap-2">
               <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#CBBCD4] text-black mb-2">
@@ -73,7 +73,7 @@ export default function ContactPage() {
       </div>
 
       {/* Consultation Form */}
-        <div className="lg:mt-18 mt-8 bg-[#FFFCF5] p-6 md:p-10">
+        <div className="bg-[#FFFCF5] p-6 md:p-10">
           <div className="max-w-2xl mx-auto py-6">
           <h3 className="text-3xl md:text-5xl font-semibold text-black mb-2">Book a Consultation</h3>
           <p className="text-sm text-black mb-8">
