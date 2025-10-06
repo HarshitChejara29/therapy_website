@@ -5,32 +5,28 @@ import ApproachSection from "@/app/components/ApproachSection";
 import Testimonials from "@/app/components/Testimonials";
 import FaqSection from "@/app/components/FaqSection";
 
-interface ServiceProps {
+interface ServicePageProps {
   params: {
     slug: string;
   };
 }
 
-export default function ServiceDetailPage({ params }: ServiceProps) {
+const ServiceDetailPage = ({ params }: ServicePageProps) => {
   const service = services.find((s) => s.slug === params.slug)!;
 
   return (
     <>
-      {/* Breadcrumb and Banner Section */}
       <section className="bg-white py-14 md:px-12 lg:px-28 px-6">
-        {/* Breadcrumb */}
         <p className="text-sm text-gray-400 mb-14 ">
           <Link href="/">Home</Link> <span className="text-black">›</span>{" "}
           <Link href="/service">Service</Link>{" "}
           <span className="text-black">› {service.title}</span>
         </p>
 
-        {/* Title */}
         <h1 className="text-3xl md:text-5xl font-semibold mb-10 text-black">
           {service.title}
         </h1>
 
-        {/* Banner Image */}
         <div className="w-full rounded-2xl overflow-hidden lg:mb-12 mb-6">
           <Image
             src={service["banner-image"]}
@@ -41,7 +37,6 @@ export default function ServiceDetailPage({ params }: ServiceProps) {
           />
         </div>
 
-        {/* Descriptions */}
         <div className="lg:mt-12 mt-6">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-black">
             What To Expect
@@ -55,10 +50,11 @@ export default function ServiceDetailPage({ params }: ServiceProps) {
         </div>
       </section>
 
-      {/* Reusable Sections */}
       <ApproachSection />
       <Testimonials />
       <FaqSection />
     </>
   );
-}
+};
+
+export default ServiceDetailPage;
