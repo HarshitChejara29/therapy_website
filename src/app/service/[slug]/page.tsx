@@ -5,11 +5,17 @@ import ApproachSection from "@/app/components/ApproachSection";
 import Testimonials from "@/app/components/Testimonials";
 import FaqSection from "@/app/components/FaqSection";
 
+export async function generateStaticParams() {
+  return services.map(service => ({
+    slug: service.slug,
+  }));
+}
+
 export default async function ServiceDetailPage({ params }: { params: { slug: string } }) {
   const service = services.find(s => s.slug === params.slug);
 
   if (!service) {
-    // Optional: fallback if the service is not found
+    // fallback for invalid slug
     return (
       <div className="flex items-center justify-center min-h-screen text-center">
         <h1 className="text-3xl font-semibold text-red-500 mb-4">
