@@ -10,12 +10,27 @@ interface Params {
 }
 
 export default async function ServiceDetailPage({ params }: { params: Params }) {
-  const service = services.find((s) => s.slug === params.slug)!;
+  const service = services.find((s) => s.slug === params.slug);
+
+  if (!service) {
+    // Optional: you can render nothing, redirect, or 404
+    return (
+      <div className="flex items-center justify-center min-h-screen text-center">
+        <h1 className="text-3xl font-semibold text-red-500 mb-4">
+          Service Not Found
+        </h1>
+        <Link href="/service" className="text-blue-600 underline">
+          Go Back
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <>
+      {/* Breadcrumb and Banner Section */}
       <section className="bg-white py-14 md:px-12 lg:px-28 px-6">
-        <p className="text-sm text-gray-400 mb-14 ">
+        <p className="text-sm text-gray-400 mb-14">
           <Link href="/">Home</Link> <span className="text-black">›</span>{" "}
           <Link href="/service">Service</Link>{" "}
           <span className="text-black">› {service.title}</span>
@@ -48,6 +63,7 @@ export default async function ServiceDetailPage({ params }: { params: Params }) 
         </div>
       </section>
 
+      {/* Reusable Sections */}
       <ApproachSection />
       <Testimonials />
       <FaqSection />
