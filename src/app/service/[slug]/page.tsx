@@ -12,20 +12,7 @@ interface ServiceProps {
 }
 
 export default function ServiceDetailPage({ params }: ServiceProps) {
-  const service = services.find((s) => s.slug === params.slug);
-
-  if (!service) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen text-center">
-        <h1 className="text-3xl font-semibold mb-4 text-red-500">
-          Service Not Found
-        </h1>
-        <Link href="/service" className="text-blue-600 underline">
-          Go Back
-        </Link>
-      </div>
-    );
-  }
+  const service = services.find((s) => s.slug === params.slug)!;
 
   return (
     <>
