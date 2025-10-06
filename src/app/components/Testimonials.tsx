@@ -29,7 +29,7 @@ export default function Testimonials() {
     : [testimonialsData[index], testimonialsData[(index + 1) % testimonialsData.length]]; // 2 cards on desktop
 
   return (
-    <section className="lg:py-28 py-18 lg:px-28 px-6 bg-white">
+    <section className="lg:py-20 py-18 lg:px-28 px-6 bg-white">
       <p className="text-sm font-medium text-purple-400 mb-2">Testimonials</p>
       <h2 className="text-3xl md:text-5xl font-semibold text-black mb-10">Happy Clients</h2>
 

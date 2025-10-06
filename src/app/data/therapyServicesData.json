@@ -1,27 +1,47 @@
 [
   {
     "title": "Individual Therapy",
+    "slug": "individual-therapy",
     "description": "One-on-one sessions designed to help you manage stress, anxiety, or emotional struggles and build resilience for a healthier life.",
-    "image": "/service/individual.png"
+    "image": "/service/individual.png",
+    "banner-image": "/service/individual-banner.png",
+    "detail-description1": "Individual Therapy provides a safe, confidential space for you to explore your thoughts, emotions, and behaviors with the guidance of a professional therapist. These one-on-one sessions are designed to help you better understand yourself, manage stress or anxiety, and navigate life’s challenges with greater confidence. Whether you’re dealing with personal struggles, emotional overwhelm, or simply want to grow as an individual, therapy supports you in building resilience and achieving emotional balance.",
+    "detail-description2": "Through evidence-based techniques and compassionate dialogue, Individual Therapy focuses on helping you develop coping skills, improve self-awareness, and foster a more positive mindset. Each session is tailored to your personal goals and pace, ensuring that the process feels supportive and empowering. Over time, you’ll gain tools to strengthen your emotional well-being, enhance your relationships, and move forward with a renewed sense of clarity and purpose."
   },
   {
     "title": "Couples Therapy",
+    "slug": "couples-therapy",
     "description": "Guided sessions to improve connection, resolve conflicts, and foster a deeper, more supportive partnership.",
-    "image": "/service/couples.png"
+    "image": "/service/couples.png",
+    "banner-image": "/service/couples-banner.png",
+    "detail-description1": "Couples Therapy offers a supportive environment for partners to strengthen their connection, improve communication, and work through conflicts with understanding and care. Whether you’re navigating challenges, rebuilding trust, or simply looking to deepen your relationship, therapy provides the tools to foster emotional closeness and shared growth. With the guidance of a skilled therapist, you’ll learn to express your needs, listen with empathy, and build a foundation of mutual respect and support.",
+    "detail-description2": "Each session is tailored to your relationship’s unique dynamics, helping both partners identify patterns that may be causing tension or distance. Through open dialogue and practical strategies, Couples Therapy encourages collaboration rather than blame—allowing you to rediscover connection, compassion, and commitment. The goal is not just to resolve current issues, but to create a healthier, more fulfilling relationship that continues to grow stronger over time."
   },
   {
     "title": "Family Therapy",
+    "slug": "family-therapy",
     "description": "Therapy that addresses family dynamics, enhances communication, and resolves conflicts to create a healthier home environment.",
-    "image": "/service/family.png"
+    "image": "/service/family.png",
+    "banner-image": "/service/family-banner.png",
+    "detail-description1": "Family Therapy provides a compassionate and structured space for families to address challenges, improve communication, and strengthen their relationships. Whether it’s navigating conflict, coping with change, or supporting a loved one through a difficult time, therapy helps families understand one another’s perspectives and build healthier patterns of interaction. With professional guidance, each member is encouraged to express their feelings openly, fostering empathy and connection within the family unit.",
+    "detail-description2": "These sessions focus on enhancing understanding, resolving ongoing issues, and creating a balanced, supportive home environment. By identifying underlying dynamics and improving communication skills, Family Therapy empowers families to manage stress and resolve conflicts more effectively. Over time, the process helps restore harmony, deepen emotional bonds, and promote long-term resilience—allowing every member to feel heard, valued, and connected."
   },
   {
     "title": "Group Therapy",
+    "slug": "group-therapy",
     "description": "Facilitated group sessions where you can share experiences, gain insights, and develop coping skills with others facing similar challenges.",
-    "image": "/service/group.png"
+    "image": "/service/group.png",
+    "banner-image": "/service/group-banner.png",
+    "detail-description1": "Our Group Therapy Service provides a supportive and structured environment where individuals can share experiences, challenges, and insights with others facing similar life situations. Led by trained and compassionate therapists, sessions focus on fostering open communication, building empathy, and developing practical coping strategies. Participants benefit from a sense of community, realizing they are not alone in their struggles, which can be a powerful step toward emotional healing and personal growth.",
+    "detail-description2": "In these sessions, members explore topics such as stress management, anxiety, depression, relationship challenges, and personal development, all within a safe and confidential setting. The group format encourages collaboration and peer support, allowing participants to learn from one another while gaining guidance from professionals. Whether you are looking to improve mental wellness, build resilience, or develop healthier interpersonal skills, our Group Therapy Service offers a welcoming space to grow and thrive together."
   },
   {
     "title": "Child Therapy",
+    "slug": "child-therapy",
     "description": "Tailored therapy to help children cope with emotional, social, or behavioral difficulties in a safe and nurturing environment.",
-    "image": "/service/child.jpg"
+    "image": "/service/child.png",
+    "banner-image": "/service/child-banner.png",
+    "detail-description1": "Our Child Therapy service provides a safe, nurturing, and supportive environment where children can express their feelings, navigate challenges, and develop essential coping skills. Guided by experienced child therapists, sessions are designed to address emotional, behavioral, and social difficulties in a way that is engaging and age-appropriate. Through play, creative activities, and gentle conversation, children learn to understand their emotions, build confidence, and develop healthier ways of interacting with the world around them.",
+    "detail-description2": "Child Therapy also involves collaboration with parents and caregivers to ensure a holistic approach to a child’s growth and well-being. By identifying underlying issues and strengthening emotional resilience, this service helps children overcome challenges such as anxiety, depression, trauma, or difficulties at school or home. Our goal is to empower each child to thrive emotionally, socially, and academically while feeling supported and understood throughout their journey."
   }
 ]

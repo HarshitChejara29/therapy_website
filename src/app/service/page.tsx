@@ -34,7 +34,8 @@ export default function TherapyServices() {
               <p className="text-black text-sm mb-5">{service.description}</p>
 
               <div className="mt-auto">
-                <Link href="/service">
+                {/* <Link href={`/service/${service.slug}`}> */}
+                <Link href={`/service`}>
                   <button className="bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
                     Know More
                   </button>
