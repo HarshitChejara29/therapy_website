@@ -5,13 +5,11 @@ import ApproachSection from "@/app/components/ApproachSection";
 import Testimonials from "@/app/components/Testimonials";
 import FaqSection from "@/app/components/FaqSection";
 
-interface ServicePageProps {
-  params: {
-    slug: string;
-  };
+interface Params {
+  slug: string;
 }
 
-const ServiceDetailPage = ({ params }: ServicePageProps) => {
+export default async function ServiceDetailPage({ params }: { params: Params }) {
   const service = services.find((s) => s.slug === params.slug)!;
 
   return (
@@ -55,6 +53,4 @@ const ServiceDetailPage = ({ params }: ServicePageProps) => {
       <FaqSection />
     </>
   );
-};
-
-export default ServiceDetailPage;
+}
