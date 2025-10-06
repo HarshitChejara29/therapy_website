@@ -13,7 +13,6 @@ export default async function ServiceDetailPage({ params }: { params: Params }) 
   const service = services.find((s) => s.slug === params.slug);
 
   if (!service) {
-    // Optional: you can render nothing, redirect, or 404
     return (
       <div className="flex items-center justify-center min-h-screen text-center">
         <h1 className="text-3xl font-semibold text-red-500 mb-4">
