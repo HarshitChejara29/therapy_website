@@ -11,14 +11,14 @@ export async function generateStaticParams() {
   }));
 }
 
-interface ServiceDetailPageProps {
-  params: {
-    slug: string;
-  };
-}
+type ServiceDetailPageProps = {
+  params: Promise<{ slug: string }>;
+};
 
 export default async function ServiceDetailPage({ params }: ServiceDetailPageProps) {
-  const service = services.find((s) => s.slug === params.slug);
+  const { slug } = await params;
+
+  const service = services.find((s) => s.slug === slug);
 
   if (!service) {
     return (
