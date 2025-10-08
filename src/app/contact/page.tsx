@@ -143,7 +143,7 @@ export default function ContactPage() {
             <div>
               <button
                 type="submit"
-                className="bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-8 py-2 rounded-full transition">
+                className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-8 py-2 rounded-full transition">
                 Submit
               </button>
             </div>

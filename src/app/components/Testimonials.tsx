@@ -37,7 +37,7 @@ export default function Testimonials() {
         {/* Prev Button */}
         <button
           onClick={prevSlide}
-          className="text-white hover:text-black absolute left-0 z-10 bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
+          className="cursor-pointer text-white hover:text-black absolute left-0 z-10 bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
         >
           <ChevronLeft className="w-5 h-5" />
         </button>
@@ -75,7 +75,7 @@ export default function Testimonials() {
         {/* Next Button */}
         <button
           onClick={nextSlide}
-          className="text-white hover:text-black absolute right-0 z-10 bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
+          className="cursor-pointer text-white hover:text-black absolute right-0 z-10 bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
         >
           <ChevronRight className="w-5 h-5" />
         </button>

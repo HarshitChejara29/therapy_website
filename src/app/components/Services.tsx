@@ -40,7 +40,7 @@ const Services = () => {
 
               <div className="mt-auto">
                 <Link href="/service">
-                  <button className="bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
+                  <button className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
                     Know More
                   </button>
                 </Link>

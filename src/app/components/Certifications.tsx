@@ -42,7 +42,7 @@ export default function Certifications() {
           {/* Prev Button */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 z-10 text-white hover:text-black bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
+            className="cursor-pointer absolute left-0 z-10 text-white hover:text-black bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
@@ -81,7 +81,7 @@ export default function Certifications() {
           {/* Next Button */}
           <button
             onClick={nextSlide}
-            className="absolute right-0 z-10 text-white hover:text-black bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
+            className="cursor-pointer absolute right-0 z-10 text-white hover:text-black bg-gray-900 hover:bg-gray-300 p-3 rounded-full"
           >
             <ChevronRight className="w-5 h-5" />
           </button>

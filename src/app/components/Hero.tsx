@@ -27,7 +27,7 @@ const Hero = () => {
         </p>
         <Link
           href={heroData.buttonLink}
-          className="mt-6 inline-block bg-white text-black px-4 py-2 rounded-full font-medium hover:bg-[#0B0B0B] hover:text-white transition text-sm sm:text-base"
+          className="cursor-pointer mt-6 inline-block bg-white text-black px-4 py-2 rounded-full font-medium hover:bg-[#0B0B0B] hover:text-white transition text-sm sm:text-base"
         >
           {heroData.buttonText}
         </Link>

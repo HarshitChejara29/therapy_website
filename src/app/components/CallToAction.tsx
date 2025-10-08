@@ -27,7 +27,7 @@ export default function CallToAction() {
               {callToActionData.description}
             </p>
             <Link href={callToActionData.buttonLink}>
-              <button className="mt-12 bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
+              <button className="cursor-pointer mt-12 bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
                 {callToActionData.buttonText}
               </button>
             </Link>

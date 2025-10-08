@@ -34,9 +34,9 @@ export default function TherapyServices() {
               <p className="text-black text-sm mb-5">{service.description}</p>
 
               <div className="mt-auto">
-                {/* <Link href={`/service/${service.slug}`}> */}
-                <Link href={`/service`}>
-                  <button className="bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
+                <Link href={`/service/${service.slug}`}>
+                {/* <Link href={`/service`}> */}
+                  <button className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
                     Know More
                   </button>
                 </Link>
@@ -60,7 +60,7 @@ export default function TherapyServices() {
         <div className="text-start md:text-right">
           <p className="text-black mb-4 max-w-lg">{getInTouchData.description}</p>
           <Link href={getInTouchData.buttonLink}>
-            <button className="mt-2 bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
+            <button className="cursor-pointer mt-2 bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
               {getInTouchData.buttonText}
             </button>
           </Link>

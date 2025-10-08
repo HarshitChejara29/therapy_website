@@ -20,7 +20,7 @@ export default function FaqSection() {
           <div key={index} className="border-b-2 border-[#CBBCD4]">
             <button
               onClick={() => toggleFAQ(index)}
-              className="flex justify-between items-center w-full py-4 text-left"
+              className="cursor-pointer flex justify-between items-center w-full py-4 text-left"
             >
               <span className="font-semibold text-xl mb-4 text-black">{faq.question}</span>
               {openIndex === index ? (

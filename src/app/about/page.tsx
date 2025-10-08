@@ -46,7 +46,7 @@ export default function About() {
 
               {/* Button */}
               <Link href={aboutusData.intro.buttonLink}>
-                <button className="bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
+                <button className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-4 py-2 rounded-full transition">
                   {aboutusData.intro.buttonText}
                 </button>
               </Link>

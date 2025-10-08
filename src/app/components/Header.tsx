@@ -31,7 +31,7 @@ const Header = () => {
         <div className="hidden md:block">
           <Link
             href="/contact"
-            className="bg-[#CBBCD4] text-black font-medium px-4 py-3 rounded-full hover:bg-purple-200 transition"
+            className="cursor-pointer bg-[#CBBCD4] text-black font-medium px-4 py-3 rounded-full hover:bg-purple-200 transition"
           >
             Book A Consultation
           </Link>
@@ -45,7 +45,7 @@ const Header = () => {
           </Link>
 
           {/* Menu button at far right */}
-          <div className="ml-auto text-black">
+          <div className="cursor-pointer ml-auto text-black">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -79,7 +79,7 @@ const Header = () => {
           </Link>
           <Link
             href="/contact"
-            className="block bg-[#CBBCD4] text-black font-medium px-4 py-3 rounded-full hover:bg-purple-200 transition text-center"
+            className="cursor-pointer block bg-[#CBBCD4] text-black font-medium px-4 py-3 rounded-full hover:bg-purple-200 transition text-center"
             onClick={() => setIsOpen(false)}
           >
             Book A Consultation
