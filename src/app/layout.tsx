@@ -7,32 +7,32 @@ import { Montserrat, Poppins } from "next/font/google";
 export const metadata: Metadata = {
   title: "Maple Therapy",
   description: "Best Therapy Service",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
-// Load Montserrat
+// Load fonts
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-montserrat",
 });
 
-// Load Poppins
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
 });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html
-      lang="en"
-      className={`${montserrat.variable} ${poppins.variable}`} // ✅ move here
-    >
-      <head>
-        <link rel="icon" href="/favicon.png" />
-      </head>
-      <body className="bg-white text-white">
+    <html lang="en" className={`${montserrat.variable} ${poppins.variable}`}>
+      <body className="bg-white text-black">
         <Header />
         {children}
         <Footer />
