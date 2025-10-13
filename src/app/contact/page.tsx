@@ -8,14 +8,31 @@ import contactData from "../data/Contact.json";
 import Support from "../components/Support";
 import CalendlyWidget from "../components/CalendlyWidget";
 
-const iconMap: { [key: string]: React.ReactElement } = {
+interface ContactInfoItem {
+  icon: keyof typeof iconMap;
+  title: string;
+  description: string;
+  details: string[];
+  link?: string;
+}
+
+const iconMap = {
   Clock: <Clock className="w-6 h-6" />,
   Phone: <Phone className="w-6 h-6" />,
   Mail: <Mail className="w-6 h-6" />,
 };
 
 export default function ContactPage() {
-  const { pageTitle, introSection, contactInfo } = contactData;
+  const { pageTitle, introSection, contactInfo } = contactData as {
+    pageTitle: string;
+    introSection: {
+      title: string;
+      paragraphs: string[];
+      image: string;
+      imageAlt: string;
+    };
+    contactInfo: ContactInfoItem[];
+  };
 
   return (
     <>
@@ -60,7 +77,7 @@ export default function ContactPage() {
 
         {/* Contact Info */}
         <div className="lg:mb-18 mb-8 grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-5 lg:mt-28 mt-18">
-          {contactInfo.map((info: any, idx: number) => (
+          {contactInfo.map((info: ContactInfoItem, idx: number) => (
             <div
               key={idx}
               className="p-6 border border-[#CBBCD4] border-b-5 border-r-5 rounded-2xl bg-white flex flex-col gap-2"

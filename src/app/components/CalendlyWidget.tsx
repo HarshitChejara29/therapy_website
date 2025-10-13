@@ -4,7 +4,12 @@ import { useEffect } from "react";
 
 declare global {
   interface Window {
-    Calendly: any;
+    Calendly?: {
+      initInlineWidget: (options: {
+        url: string;
+        parentElement: HTMLElement | null;
+      }) => void;
+    };
   }
 }
 
@@ -16,9 +21,9 @@ export default function CalendlyWidget() {
     document.body.appendChild(script);
 
     script.onload = () => {
-      if (window.Calendly) {
+      if (window.Calendly && typeof window.Calendly.initInlineWidget === "function") {
         window.Calendly.initInlineWidget({
-          url: "https://calendly.com/harshitchejara29/30min", // ← Replace with your actual Calendly link
+          url: "https://calendly.com/harshitchejara29/30min", // replace with your actual Calendly link
           parentElement: document.getElementById("calendly-inline-widget"),
         });
       }
@@ -34,7 +39,7 @@ export default function CalendlyWidget() {
     <div
       id="calendly-inline-widget"
       style={{ minWidth: "320px", height: "900px" }}
-      className="rounded-2xl overflow-hidden bg-white shadow-md"
+      className="rounded-2xl overflow-hidden bg-white"
     />
   );
 }
