@@ -13,20 +13,20 @@
   },
   {
     "id": 3,
+    "title": "Child Therapy",
+    "description": "Supporting children’s emotional and behavioral well-being.",
+    "icon": "Baby"
+  },
+  {
+    "id": 4,
     "title": "Family Therapy",
     "description": "Helping families grow stronger together.",
     "icon": "Users"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Group Therapy",
     "description": "Healing and learning in a supportive community.",
     "icon": "Group"
-  },
-  {
-    "id": 5,
-    "title": "Child Therapy",
-    "description": "Supporting children’s emotional and behavioral well-being.",
-    "icon": "Baby"
   }
 ]

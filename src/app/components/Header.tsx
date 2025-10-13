@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +14,14 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/">
-            <div className="text-xl font-extrabold tracking-widest">L O G O</div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Company Logo"
+              width={120}
+              height={40}
+              className="object-contain"
+            />
           </Link>
           <Link href="/about" className="text-black hover:text-gray-600">
             About Us
@@ -40,8 +47,14 @@ const Header = () => {
         {/* Mobile Menu Toggle */}
         <div className="md:hidden flex items-center w-full px-2">
           {/* Logo on the left */}
-          <Link href="/">
-            <div className="text-xl font-extrabold tracking-widest text-black">L O G O</div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Company Logo"
+              width={100}
+              height={35}
+              className="object-contain"
+            />
           </Link>
 
           {/* Menu button at far right */}

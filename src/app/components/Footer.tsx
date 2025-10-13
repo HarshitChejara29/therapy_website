@@ -1,16 +1,26 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-24 px-6 md:px-28">
+    <footer className="bg-black text-white py-20 px-6 md:px-28">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-12 gap-10">
         {/* Left Section - Logo + Text */}
-        <div className="space-y-10">
-          <Link href="/">
+        <div className="space-y-4">
+          {/* <Link href="/">
             <div className="text-2xl font-extrabold tracking-widest">L O G O</div>
+          </Link> */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo2.png"
+              alt="Company Logo"
+              width={120}
+              height={40}
+              className="object-contain"
+            />
           </Link>
-          <p className="max-w-sm text-gray-300 text-sm leading-relaxed mt-3">
+          <p className="max-w-sm text-sm leading-relaxed">
             Providing compassionate, evidence-based therapy to help individuals, couples, and families navigate life&apos;s challenges and achieve lasting well-being.
           </p>
         </div>
@@ -48,31 +58,36 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-1 text-sm">
-              <li>
+              {/* <li>
                 <Link href="/service" className="hover:text-gray-300">
                   Services
                 </Link>
-              </li>
-              {/* <li>
-                <Link href="/services/individual" className="hover:text-gray-300">
+              </li> */}
+              <li>
+                <Link href="/service/individual-therapy" className="hover:text-gray-300">
                   Individual Therapy
                 </Link>
               </li>
               <li>
-                <Link href="/services/couples" className="hover:text-gray-300">
+                <Link href="/service/couples-therapy" className="hover:text-gray-300">
                   Couples Therapy
                 </Link>
               </li>
               <li>
-                <Link href="/services/family" className="hover:text-gray-300">
+                <Link href="/service/child-therapy" className="hover:text-gray-300">
+                  Child Therapy
+                </Link>
+              </li>
+              <li>
+                <Link href="/service/family-therapy" className="hover:text-gray-300">
                   Family Therapy
                 </Link>
               </li>
               <li>
-                <Link href="/services/group" className="hover:text-gray-300">
+                <Link href="/service/group-therapy" className="hover:text-gray-300">
                   Group Therapy
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
 

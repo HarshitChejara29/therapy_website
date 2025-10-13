@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Clock, Phone, Mail } from "lucide-react";
 import contactData from "../data/Contact.json";
 import Support from "../components/Support";
+import CalendlyWidget from "../components/CalendlyWidget";
 
 const iconMap: { [key: string]: React.ReactElement } = {
   Clock: <Clock className="w-6 h-6" />,
@@ -21,19 +22,26 @@ export default function ContactPage() {
       <div className="bg-white px-6 md:px-12 lg:px-28">
         {/* Breadcrumb */}
         <p className="text-sm text-gray-400 py-14">
-          <Link href="/">Home</Link> <span className="text-black">› Contact Us</span>
+          <Link href="/">Home</Link>{" "}
+          <span className="text-black">› Contact Us</span>
         </p>
 
         {/* Page Title */}
-        <h2 className="text-black text-3xl md:text-5xl font-semibold mb-6">{pageTitle}</h2>
+        <h2 className="text-black text-3xl md:text-5xl font-semibold mb-6">
+          {pageTitle}
+        </h2>
 
         {/* Intro Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 items-stretch lg:gap-0 gap-6">
           <div className="md:col-span-2 bg-[#FFFCF5] p-6 rounded-lg lg:ml-18 lg:mr-16 h-full flex flex-col justify-start">
-            <h3 className="text-black font-semibold text-lg mb-4">{introSection.title}</h3>
+            <h3 className="text-black font-semibold text-lg mb-4">
+              {introSection.title}
+            </h3>
             <div className="space-y-2">
-              {introSection.paragraphs.map((p, idx) => (
-                <p key={idx} className="text-gray-900">{p}</p>
+              {introSection.paragraphs.map((p: string, idx: number) => (
+                <p key={idx} className="text-gray-900">
+                  {p}
+                </p>
               ))}
             </div>
           </div>
@@ -51,20 +59,30 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Info */}
-        <div className="lg:mb-18 mb-8 grid grid-cols-1 md:grid-cols-3 gap-10 lg:mt-28 mt-18">
-          {contactInfo.map((info, idx) => (
-            <div key={idx} className="p-6 border border-[#CBBCD4] border-b-5 border-r-5 rounded-2xl bg-white flex flex-col gap-2">
+        <div className="lg:mb-18 mb-8 grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-5 lg:mt-28 mt-18">
+          {contactInfo.map((info: any, idx: number) => (
+            <div
+              key={idx}
+              className="p-6 border border-[#CBBCD4] border-b-5 border-r-5 rounded-2xl bg-white flex flex-col gap-2"
+            >
               <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#CBBCD4] text-black mb-2">
                 {iconMap[info.icon]}
               </div>
-              <h4 className="text-black  font-semibold">{info.title}</h4>
+              <h4 className="text-black font-semibold">{info.title}</h4>
               <div className="w-full border-b border-[#CBBCD4] mb-1"></div>
               <p className="text-sm text-black">{info.description}</p>
               {info.link ? (
-                <Link href={info.link} className="font-medium underline text-black ">{info.details[0]}</Link>
+                <Link
+                  href={info.link}
+                  className="font-medium underline text-black"
+                >
+                  {info.details[0]}
+                </Link>
               ) : (
-                info.details.map((detail, i) => (
-                  <span key={i} className="font-medium text-black ">{detail}</span>
+                info.details.map((detail: string, i: number) => (
+                  <span key={i} className="font-medium text-black">
+                    {detail}
+                  </span>
                 ))
               )}
             </div>
@@ -73,15 +91,16 @@ export default function ContactPage() {
       </div>
 
       {/* Consultation Form */}
-        <div className="bg-[#FFFCF5] p-6 md:p-10">
-          <div className="max-w-2xl mx-auto py-6">
-          <h3 className="text-3xl md:text-5xl font-semibold text-black mb-2">Book a Consultation</h3>
+      <div className="bg-[#FFFCF5] p-6 md:p-10">
+        {/* <div className="max-w-2xl mx-auto py-6">
+          <h3 className="text-3xl md:text-5xl font-semibold text-black mb-2">
+            Book a Consultation
+          </h3>
           <p className="text-sm text-black mb-8">
             Please fill out your information below.
           </p>
 
           <form className="text-black grid grid-cols-1 gap-8">
-            {/* Name */}
             <div>
               <label className="block text-md font-semibold mb-1">
                 Name <span className="text-red-500">*</span>
@@ -93,7 +112,6 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Email */}
             <div>
               <label className="block text-md font-semibold mb-1">
                 Email <span className="text-red-500">*</span>
@@ -105,7 +123,6 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Phone */}
             <div>
               <label className="block text-md font-semibold mb-1">
                 Phone Number <span className="text-red-500">*</span>
@@ -117,7 +134,6 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Appointment Date */}
             <div>
               <label className="block text-md font-semibold mb-1">
                 Appointment Date <span className="text-red-500">*</span>
@@ -128,7 +144,6 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Appointment Time */}
             <div>
               <label className="block text-md font-semibold mb-1">
                 Appointment Time <span className="text-red-500">*</span>
@@ -139,15 +154,26 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Submit */}
             <div>
               <button
                 type="submit"
-                className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-8 py-2 rounded-full transition">
+                className="cursor-pointer bg-[#CBBCD4] hover:bg-purple-200 text-black font-medium px-8 py-2 rounded-full transition"
+              >
                 Submit
               </button>
             </div>
           </form>
+        </div> */}
+
+        {/* Calendly Booking Below the Form */}
+        <div className="max-w-3xl mx-auto py-10">
+          <h3 className="text-3xl md:text-5xl font-semibold text-black mb-2">
+            Book a Consultation
+          </h3>
+          <p className="text-sm text-black mb-8">
+            Please fill out your information below.
+          </p>
+          <CalendlyWidget />
         </div>
       </div>
 

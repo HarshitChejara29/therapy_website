@@ -18,6 +18,15 @@
     "detail-description2": "Each session is tailored to your relationship’s unique dynamics, helping both partners identify patterns that may be causing tension or distance. Through open dialogue and practical strategies, Couples Therapy encourages collaboration rather than blame—allowing you to rediscover connection, compassion, and commitment. The goal is not just to resolve current issues, but to create a healthier, more fulfilling relationship that continues to grow stronger over time."
   },
   {
+    "title": "Child Therapy",
+    "slug": "child-therapy",
+    "description": "Tailored therapy to help children cope with emotional, social, or behavioral difficulties in a safe and nurturing environment.",
+    "image": "/service/child.png",
+    "banner-image": "/service/child-banner.png",
+    "detail-description1": "Our Child Therapy service provides a safe, nurturing, and supportive environment where children can express their feelings, navigate challenges, and develop essential coping skills. Guided by experienced child therapists, sessions are designed to address emotional, behavioral, and social difficulties in a way that is engaging and age-appropriate. Through play, creative activities, and gentle conversation, children learn to understand their emotions, build confidence, and develop healthier ways of interacting with the world around them.",
+    "detail-description2": "Child Therapy also involves collaboration with parents and caregivers to ensure a holistic approach to a child’s growth and well-being. By identifying underlying issues and strengthening emotional resilience, this service helps children overcome challenges such as anxiety, depression, trauma, or difficulties at school or home. Our goal is to empower each child to thrive emotionally, socially, and academically while feeling supported and understood throughout their journey."
+  },
+  {
     "title": "Family Therapy",
     "slug": "family-therapy",
     "description": "Therapy that addresses family dynamics, enhances communication, and resolves conflicts to create a healthier home environment.",
@@ -34,14 +43,5 @@
     "banner-image": "/service/group-banner.png",
     "detail-description1": "Our Group Therapy Service provides a supportive and structured environment where individuals can share experiences, challenges, and insights with others facing similar life situations. Led by trained and compassionate therapists, sessions focus on fostering open communication, building empathy, and developing practical coping strategies. Participants benefit from a sense of community, realizing they are not alone in their struggles, which can be a powerful step toward emotional healing and personal growth.",
     "detail-description2": "In these sessions, members explore topics such as stress management, anxiety, depression, relationship challenges, and personal development, all within a safe and confidential setting. The group format encourages collaboration and peer support, allowing participants to learn from one another while gaining guidance from professionals. Whether you are looking to improve mental wellness, build resilience, or develop healthier interpersonal skills, our Group Therapy Service offers a welcoming space to grow and thrive together."
-  },
-  {
-    "title": "Child Therapy",
-    "slug": "child-therapy",
-    "description": "Tailored therapy to help children cope with emotional, social, or behavioral difficulties in a safe and nurturing environment.",
-    "image": "/service/child.png",
-    "banner-image": "/service/child-banner.png",
-    "detail-description1": "Our Child Therapy service provides a safe, nurturing, and supportive environment where children can express their feelings, navigate challenges, and develop essential coping skills. Guided by experienced child therapists, sessions are designed to address emotional, behavioral, and social difficulties in a way that is engaging and age-appropriate. Through play, creative activities, and gentle conversation, children learn to understand their emotions, build confidence, and develop healthier ways of interacting with the world around them.",
-    "detail-description2": "Child Therapy also involves collaboration with parents and caregivers to ensure a holistic approach to a child’s growth and well-being. By identifying underlying issues and strengthening emotional resilience, this service helps children overcome challenges such as anxiety, depression, trauma, or difficulties at school or home. Our goal is to empower each child to thrive emotionally, socially, and academically while feeling supported and understood throughout their journey."
   }
 ]
